@@ -27,10 +27,8 @@ export default {
     }
   },
   methods: {
-    handleSearchCityName() {
-      weatherStore.searchCityName(this.cityName)
-      weatherStore.$state.cityName = this.cityName
-      this.cityName = ''
+    async handleSearchCityName() {
+      
     }
   }
 }
